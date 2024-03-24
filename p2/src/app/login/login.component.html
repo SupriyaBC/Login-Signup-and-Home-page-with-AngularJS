@@ -1,0 +1,19 @@
+<!-- loginsignup.component.html -->
+<div class="container">
+  <div *ngIf="showSuccessMessage" class="success-message">
+    Sign up successful! You can now log in.
+  </div>
+  <div class="header">
+    <div class="text">Sign Up</div>
+    <div class="underline"></div>
+  </div>
+  <div class="inputs">
+    <!-- Input fields with ngModel binding -->
+  </div>
+  <div class="submit-container">
+    <div class="submit" (click)="handleSignUp()">Sign Up</div>
+  </div>
+  <div class="login-link">
+    Already have an account? <a routerLink="/login">Login</a>
+  </div>
+</div>

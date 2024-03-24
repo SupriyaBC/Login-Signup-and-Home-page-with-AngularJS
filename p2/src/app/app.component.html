@@ -1,0 +1,27 @@
+<!--<div align="center">
+  <h1> Form Registration</h1>
+  <div>
+      <form (ngSubmit)="disp()">
+          <div>
+             <label>quantity:</label>
+             <input #QUANTITY="ngModel" required maxlength="5" mimlength="3" type="text" name="q" ngModel>
+             <div *ngIf="name.touched && name.invalid" class="alert">Invalid</div>
+          </div>
+          <div>
+            <label>rate:</label>
+            <input #Quality="ngModel" type="text" name="r" ngModel>
+          </div><br>
+          <button type="submit" value="submit"(click)="disp()">submit</button>
+        </form>
+        <div *ngIf="submitted">
+           <h1>Bill:{{bill}}</h1>
+        </div>
+      
+    
+    </div>
+</div>-->
+<!--<ul>
+<li><a href="#" routerLink="/form" routerLinkActive="active">Forms</a></li>
+<li><a href="#" routerLink="/links" routerLinkActive="active">links</a></li>
+<ul>
+  <router-outlet></router-outlet>
